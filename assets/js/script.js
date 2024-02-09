@@ -633,7 +633,7 @@ const isItPrime = (primeNumber) => {
     }
 }
 console.log('ESERCIZIO 29');
-
+console.log(isItPrime(5));
 
 
 /* Questo array viene usato per gli esercizi. Non modificarlo. */
