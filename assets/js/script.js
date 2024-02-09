@@ -621,6 +621,9 @@ tree(4);
 */
 
 const isItPrime = (primeNumber) => {
+  if(primeNumber <= 0 || primeNumber === 1 || primeNumber ===2){
+    return false;
+  }
     for(let i = 2; i<primeNumber; i++){
         if(primeNumber % i === 0){
             return false;
@@ -630,7 +633,7 @@ const isItPrime = (primeNumber) => {
     }
 }
 console.log('ESERCIZIO 29');
-console.log(isItPrime(5));
+
 
 
 /* Questo array viene usato per gli esercizi. Non modificarlo. */
